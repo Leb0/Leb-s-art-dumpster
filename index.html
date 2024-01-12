@@ -8,28 +8,6 @@
     <style>
         /* Add your custom styles here */
 
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-
-        .gallery-container {
-            max-width: 600px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-
-        .image-container {
-            display: flex;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .gallery-image {
-            width: 100%;
-            height: auto;
-        }
-
     .book-link {
         display: block;
         padding: 15px 30px; /* Adjust padding for desired size */
@@ -111,45 +89,7 @@
 
     <section>
         <h2>Artwork Gallery</h2>
-
-        <div class="gallery-container">
-        <div class="image-container">
-            <img src="images/Detective art 1.jpg" alt="Image 2" class="gallery-image">
-              <img src="images/Kera art 1.png." alt="Image 1" class="gallery-image">
-            <img src="images/Kitza art 7.png" alt="Image 2" class="gallery-image">
-            <!-- Add more images as needed -->
-        </div>
-    </div>
-
-    <script>
-        let currentIndex = 0;
-        const totalImages = document.querySelectorAll('.gallery-image').length;
-
-        function showImage(index) {
-            const imageContainer = document.querySelector('.image-container');
-            const offset = -index * 100;
-            imageContainer.style.transform = `translateX(${offset}%)`;
-        }
-
-        function nextImage() {
-            currentIndex = (currentIndex + 1) % totalImages;
-            showImage(currentIndex);
-        }
-
-        function prevImage() {
-            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-            showImage(currentIndex);
-        }
-
-        document.addEventListener('keydown', function (event) {
-            if (event.key === 'ArrowLeft') {
-                prevImage();
-            } else if (event.key === 'ArrowRight') {
-                nextImage();
-            }
-        });
-    </script>
-
+        
 
         <div class="gallery">
             <!-- Add your image URLs here -->
