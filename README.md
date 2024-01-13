@@ -20,7 +20,7 @@ Explore a collection of my digital art. There might some random art pieces here 
 
 ### Featured Artwork
 
-![Artwork Title](images/artwork.jpg)
+![Artwork Title](images/Kitza art 7.png)
 
 ## Projects
 
