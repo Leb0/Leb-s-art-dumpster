@@ -18,19 +18,15 @@ I'm Leb, a novice artist and creator passionate about drawing fictional stories.
 
 Explore a collection of my digital art. There might some random art pieces here and there.
 
-### Featured Artwork
-
-images/Kitza art 7.png
-
 ## Projects
 
 In addition to my artwork, I also work on various creative projects. Check out some of my notable projects below:
 
 ### The Midnight Manhattan Killer Series
 
-Series of detective novel books that are about misteries and illustrations. 
+Series of detective novel books that are about misteries and illustrations, currently working on it!
 
-### Voyages
+### Voyagers (temporal name)
 
 Project not in progress for now. Add images, code snippets, or links to project pages.
 
