@@ -78,6 +78,25 @@
             text-decoration: none;
             font-size: 18px;
         }
+        
+        .thumbnail-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .thumbnail {
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .thumbnail img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 
@@ -91,6 +110,19 @@
 
     <section>
         <h2>Artwork Gallery</h2>
+
+        <div class="thumbnail-container">
+        <div class="thumbnail">
+            <img src="images/Detective escritorio V3.png" alt="Image 1">
+        </div>
+        <div class="thumbnail">
+            <img src="images/Kera art 1.png" alt="Image 2">
+        </div>
+        <div class="thumbnail">
+            <img src="images/Kitza art 7.png" alt="Image 3">
+        </div>
+        <!-- Add more thumbnails as needed -->
+    </div>
         
 
         <div class="gallery">
