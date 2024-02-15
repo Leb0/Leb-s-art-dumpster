@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <title>Book Synopsis</title>
+</head>
+<body>
+
+    <h1>Book Synopsis</h1>
+
+    <label for="language-select">Select Language:</label>
+    <select id="language-select">
+        <option value="spanish">Spanish</option>
+        <option value="english">English</option>
+    </select>
+
+    <div id="synopsis-container">
+        <p id="spanish-synopsis" style="display: none;">Este es el resumen del libro en español.</p>
+        <p id="english-synopsis" style="display: none;">This is the book synopsis in English.</p>
+    </div>
+
+    <script>
+        document.getElementById('language-select').addEventListener('change', function() {
+            var language = this.value;
+            var spanishSynopsis = document.getElementById('spanish-synopsis');
+            var englishSynopsis = document.getElementById('english-synopsis');
+
+            if (language === 'spanish') {
+                spanishSynopsis.style.display = 'block';
+                englishSynopsis.style.display = 'none';
+            } else {
+                spanishSynopsis.style.display = 'none';
+                englishSynopsis.style.display = 'block';
+            }
+        });
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download Book</title>
